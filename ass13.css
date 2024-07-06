@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    line-height: 200px;
+    text-align: center;
+    border: 1px solid #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.color-transition {
+    background-color: #f0f0f0;
+}
+
+.color-transition:hover {
+    color: red;
+}
+
+.background-transition {
+    background-color: #f0f0f0;
+}
+
+.background-transition:hover {
+    background-color: #a0a0a0;
+}
+
+.size-transition {
+    background-color: #f0f0f0;
+}
+
+.size-transition:hover {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+}

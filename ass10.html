@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="ass10.css">
+</head>
+<body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    <main>
+        <figure>
+            <img src="image.jpg"
+                 srcset="image.jpg 400w,
+                       image.jpg 800w,
+                       image.jpg 1200w"
+                 sizes="(max-width: 600px) 400px,
+                        (max-width: 900px) 800px,
+                        1200px"
+                 alt="Responsive Images">
+            <figcaption>Responsive Images Example</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <p>&copy; 2024 Responsive Images</p>
+    </footer>
+</body>
+</html>

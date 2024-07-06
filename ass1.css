@@ -1,0 +1,86 @@
+/* Element Selector: Style all paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Class Selector: Style elements with the class "intro" */
+.intro {
+    font-weight: bold;
+    color: black;
+}
+
+/* ID Selector: Style the element with the id "home" */
+#home {
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Attribute Selector: Style input elements of type "text" */
+input[type="text"] {
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+
+/* Pseudo-class Selector: Style links when hovered */
+a:hover {
+    color: #FF5733;
+}
+
+
+/* Additional styles for layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+    margin: 10px 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    padding: 20px;
+    color: white;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 5px;
+}
+
+form input, form button {
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
+
+}

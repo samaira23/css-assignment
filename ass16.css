@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #000;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn:focus {
+    outline: none;
+    border-color: #ff0000;
+}
+
+.btn:active {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.list li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+.list li:nth-child(even) {
+    background-color: #d0d0d0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+}
+
+.box::before {
+    content: "Before";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #ff0000;
+}
+
+.box::after {
+    content: "After";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #0000ff;
+}
+
+.content {
+    display: block;
+   

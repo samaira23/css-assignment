@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    line-height: 200px;
+    text-align: center;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+.rotate-animation {
+    animation: rotate 2s linear infinite;
+}
+
+.scale-animation {
+    animation: scale 3s ease-in-out infinite;
+}
+
+.move-animation {
+    animation: move 4s ease-in 1s infinite alternate;
+}
